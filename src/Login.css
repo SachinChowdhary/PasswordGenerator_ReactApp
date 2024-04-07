@@ -1,0 +1,49 @@
+#Form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-size: contain;
+    background-color: cadetblue;
+    max-width: 100%;
+}
+input{
+    margin: 10px;
+    height:50px;
+    width: 220px;
+    border-radius: 6px;
+}
+#container{
+    max-width: 30%;
+    text-align: center;
+    height: 30%;
+    padding: 20px;
+    border-radius:7%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    font-size: 15px;
+}
+button{
+    max-width:100%;
+    height:50px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    
+    border: 1px solid aquamarine;
+}
+button:hover{
+    background-color: aquamarine;
+}
+input:hover{
+    border: 1px solid aquamarine;
+}
+
+div{
+    margin-top: 10px;
+}
